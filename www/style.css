@@ -1,0 +1,35 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.topbar{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#exec-file-path-input{
+    flex-grow: 1;
+}
+#start-btn{
+    min-width: 60px;
+}
+
+#log-container{
+    flex-grow: 1;
+    overflow-y: scroll;
+    word-wrap: break-word;
+}
+p{
+    padding: 5px;
+    margin: 0;
+}
